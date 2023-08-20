@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.context-menu {
+    width: 15%;
+    background: #191919;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+}
+
+.context-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.context-menu ul .line {
+    height: 1px;
+    background-color: #3C3C3C;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.context-menu ul li {
+    font-size: large;
+    font-weight: 200;
+    padding: 13px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.context-menu ul li span {
+    margin-left: 5px;
+}
+
+.context-menu ul li:hover {
+    background-color: #212121;
+}
